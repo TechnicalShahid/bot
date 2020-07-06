@@ -1,3 +1,4 @@
+
 import os, sys, time, datetime, random, hashlib, re, threading, json, getpass, urllib, requests, mechanize
 from multiprocessing.pool import ThreadPool
 
@@ -952,7 +953,7 @@ def grab_pilih():
 
 
 def id_teman():
-os.system('clear')
+    
     try:
         toket = open('login.txt', 'r').read()
     except IOError:
