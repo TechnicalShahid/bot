@@ -427,6 +427,7 @@ def mini():
             raw_input('\n\x1b[1;91m[ \x1b[1;97mKembali \x1b[1;91m]')
             menu_hack()
 
+
 def crack():
     global file
     global idlist
@@ -1202,7 +1203,7 @@ def emailfrom_teman():
                 x = requests.get('https://graph.facebook.com/' + i['id'] + '?access_token=' + toket)
                 z = json.loads(x.text)
                 try:
-emfromteman.append(z['email'])
+                    emfromteman.append(z['email'])
                     mpsh.write(z['email'] + '\n')
                     print '\r\x1b[1;92mNama\x1b[1;91m  :\x1b[1;97m ' + z['name']
                     print '\x1b[1;92mEmail\x1b[1;91m : \x1b[1;97m' + z['email']
