@@ -147,9 +147,11 @@ def menu():
     print '\xe2\x95\x91\x1b[1;91m[\x1b[1;96m\xe2\x9c\x93\x1b[1;91m]\x1b[1;97m Nama \x1b[1;91m: \x1b[1;92m' + nama
     print '\x1b[1;97m\xe2\x95\x9a' + 40 * '\xe2\x95\x90'
     print '\x1b[1;37;40m1. Informasi Pengguna'
-    print '\x1b[1;37;40m2. Bot               '
-    print '\x1b[1;37;40m3. Logout         '
-    print '\x1b[1;31;40m0. Back            '
+    print '\x1b[1;37;40m2. Hack Akun Facebook'
+    print '\x1b[1;37;40m3. Bot               '
+    print '\x1b[1;37;40m4. Lainnya....       '
+    print '\x1b[1;37;40m5. Logout            '
+    print '\x1b[1;31;40m0. Keluar            '
     print
     pilih()
 
@@ -950,7 +952,7 @@ def grab_pilih():
 
 
 def id_teman():
-    os.system('clear')
+os.system('clear')
     try:
         toket = open('login.txt', 'r').read()
     except IOError:
@@ -1822,7 +1824,7 @@ def lain():
     print '\x1b[1;37;40m4. Lihat daftar grup'
     print '\x1b[1;37;40m5. Profile Guard'
     print
-    print '\x1b[1;97m  ->Technical Shahid<-'
+    print '\x1b[1;97m  ->Coming soon<-'
     print
     print '\x1b[1;31;40m0. Kembali'
     print
